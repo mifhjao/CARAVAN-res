@@ -65,26 +65,22 @@ footer {
   background-color: #aaa;
 }
 @media screen and (max-width:768px) {
-  header{
-    width:100%;
-    margin-bottom: 40px;
-    
-  }
-  footer{
-    width:100%;
-    margin-top:40px;
-  }
+  
+  
   
   main{
     width:100%;
-    flex-direction: column;
-    align-items: center;
+   
+     display: block;
   }
   .step-box{
     width:90%;
-    margin-right:0px;
-    margin-top:10px;
-    margin-bottom:10px;
+    margin-right: auto;
+    margin-left:auto;
+    margin-bottom:20px;
+    
   }
-  
+  .step-box:last-child {
+  margin:0 auto;
+}
 }
